@@ -1,6 +1,7 @@
 # 
 .properties
 database/
+.DS_Store
 
 .vscode/
 
