@@ -2,11 +2,11 @@ from github import Github, Auth
 import configs
 import configs
 
-ACCESS_TOKEN = configs.get_property("ACCESS_TOKEN")
+GITHUB_ACCESS_TOKEN = configs.get_property("GITHUB_ACCESS_TOKEN")
 
 
 def get_repo(repo_owner: str, repo_name: str):
-    auth = Auth.Token(ACCESS_TOKEN)
+    auth = Auth.Token(GITHUB_ACCESS_TOKEN)
     g = Github(auth=auth)
     repo = g.get_repo(f'{repo_owner}/{repo_name}')
     return repo

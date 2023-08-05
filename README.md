@@ -42,10 +42,10 @@ pip3 install -r requirements.txt
 5. Configure the properties in the `.properties` file:
 
 - `TELEGRAM_TOKEN` from the [BotFather](https://t.me/botfather)
-- `ACCESS_TOKEN` from [GitHub](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiXqPDQmsSAAxVAS_EDHRVcB0cQFnoECA0QAQ&url=https%3A%2F%2Fgithub.com%2Fsettings%2Ftokens&usg=AOvVaw1aAJGUMBmPGH7oCTvgDvQv&opi=89978449)
+- `GITHUB_ACCESS_TOKEN` from [GitHub](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiXqPDQmsSAAxVAS_EDHRVcB0cQFnoECA0QAQ&url=https%3A%2F%2Fgithub.com%2Fsettings%2Ftokens&usg=AOvVaw1aAJGUMBmPGH7oCTvgDvQv&opi=89978449)
 - `DELAY_IN_SECONDS` is the time interval between each check expressed in seconds
 
-At the end, the `.properties` file should look like this:
+At the end, the `.properties` file should look something like this:
 
 ```
 ACCESS_TOKEN=ghp_GGutsdfsfssadssaxcGxc8vojZUZ3qFFwN
