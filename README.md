@@ -76,7 +76,7 @@ The organization of the project is as follows:
     └── db.py                        # For the management of the dataset
     └── .properties.py               # For the storage of the private configuration properties
     └── configs.py                   # For the management of the private configuration properties
-    └── requirments.py               # pip dependencies
+    └── requirments.txt               # pip dependencies
     └── tracker.py                   # For the retrieval of the commits information
     └── bot.py                       # Bot implementation
 
