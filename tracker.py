@@ -3,9 +3,6 @@ import configs
 import configs
 
 ACCESS_TOKEN = configs.get_property("ACCESS_TOKEN")
-REPO_OWNER = "anticorruzione"
-REPO_NAME = "npa"
-DELAY = configs.get_property("DELAY_IN_SECONDS")
 
 
 def get_repo(repo_owner: str, repo_name: str):
