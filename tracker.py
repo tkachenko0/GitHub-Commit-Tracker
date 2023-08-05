@@ -19,7 +19,7 @@ def get_last_commit_sha(repo_owner: str, repo_name: str) -> str:
     """Gets the last commit sha from a file or database."""
     repo = get_repo(repo_owner, repo_name)
     commits = repo.get_commits()
-    return commits[3].sha if commits else None
+    return commits[0].sha if commits else None
 
 
 def get_not_reported_commits(repo: str, last_commit_sha: str) -> list:
