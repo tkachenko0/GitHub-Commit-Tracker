@@ -1,8 +1,9 @@
 # 
-.properties
+.my_properties
 database/
-.DS_Store
+db.json
 
+.DS_Store
 .vscode/
 
 # Byte-compiled / optimized / DLL files
